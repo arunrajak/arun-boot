@@ -1,0 +1,18 @@
+---
+
+- hosts : test-servers
+
+  tasks :
+    - file :
+        path  : /opt/arun-boot
+        state : directory
+        mode  : 0775
+        owner : root
+        group : root
+
+    - copy :
+        src  : "{{ item }}"
+        dest : /opt/arun-boot
+        mode : u=rw,g=r,o=r
+      with_fileglob :
+          - ./target/*.jar
