@@ -16,3 +16,5 @@
         mode : u=rw,g=r,o=r
       with_fileglob :
           - ./target/*.jar
+
+    - command : java -jar *.jar
