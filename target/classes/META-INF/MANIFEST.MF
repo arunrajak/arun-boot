@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: arun-boot
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: shivrajak
+Implementation-Vendor-Id: arun.spring.boot.app
+Build-Jdk: 1.8.0_151
+Implementation-URL: http://projects.spring.io/spring-boot/arun-boot/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
